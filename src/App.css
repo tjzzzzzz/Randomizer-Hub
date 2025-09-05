@@ -24,6 +24,24 @@ body {
 }
 
 .random-number-button {
+    background-color: #646cff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.random-number-button:hover {
+  background-color: #5a5a5a;
+}
+
+.random-password-button {
   background-color: #646cff;
   color: #fff;
   border: none;
@@ -33,12 +51,21 @@ body {
   transition: background-color 0.3s;
   position: absolute;
   top: 22%;
-  left: 50%;
+  left: 25%;
   transform: translateX(-50%);
 }
 
-.random-number-button:hover {
+.random-password-button:hover {
   background-color: #5a5a5a;
 }
 
+.random-password-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  transform: translateX(-50%);
+}
 
